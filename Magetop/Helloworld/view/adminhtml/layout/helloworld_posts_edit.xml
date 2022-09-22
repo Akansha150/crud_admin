@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * helloworld_posts_edit
+ *
+ * @copyright Copyright © 2020 Magetop. All rights reserved.
+ * @author    info@magetop.com
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="left">
+            <block class="Magetop\Helloworld\Block\Adminhtml\Posts\Edit\Tabs"
+                   name="helloworld_posts_grid_block.edit.tabs"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magetop\Helloworld\Block\Adminhtml\Posts\Edit"
+                   name="helloworld_posts_grid_block.edit"/>
+        </referenceContainer>
+    </body>
+</page>
